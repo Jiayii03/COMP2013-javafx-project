@@ -1,0 +1,17 @@
+/* custom-dialog.css */
+
+/* Customize the background color */
+.dialog-pane {
+    -fx-background-color: #8fc7a4;
+}
+
+/* Customize the text field background color */
+.dialog-pane .body .text-input .label {
+    -fx-background-color: #788a7d;
+    -fx-text-fill: #FF0000 !important;
+}
+
+.button{
+    -fx-font-size: 14px; /* Adjust the font size */
+    -fx-min-height: 20px; /* Adjust the minimum height */
+}

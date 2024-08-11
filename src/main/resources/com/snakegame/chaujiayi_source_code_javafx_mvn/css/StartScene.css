@@ -1,0 +1,11 @@
+
+.Button{
+    -fx-background-color: #F7E05A;
+    -fx-background-radius: 60;
+    /* -fx-font-family: 'Arcade', sans-serif; */
+}
+.Button:hover{
+    -fx-background-color: #ffed95;
+    -fx-background-radius: 60;
+    /* -fx-font-family: 'Arcade', sans-serif; */
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="560.0" prefWidth="870.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.snakegame.chaujiayi_source_code_javafx_mvn.InstructionSceneController">
+   <children>
+      <ImageView fx:id="instructionSceneBackdrop" fitHeight="594.0" fitWidth="948.0" layoutY="-23.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/instruction_page.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="backButton" fitHeight="61.0" fitWidth="59.0" layoutX="28.0" layoutY="14.0" onMouseClicked="#instructionPageBackToStartScene" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/back_button.png" />
+         </image>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+   </children>
+</AnchorPane>
